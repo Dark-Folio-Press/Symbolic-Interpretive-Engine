@@ -22,7 +22,6 @@ This repository contains:
 1. **New to this project?** Start with the [Prompt Portfolio README](prompts/README.md)
 2. **Want to understand the foundations?** Read about [Symbolic Literacy](prompts/concepts/symbolic-literacy.md)
 3. **Looking for templates?** Browse the [Templates](prompts/templates/) directory
-4. **Ready to contribute?** Check the [Collaboration Guidelines](prompts/guidelines/collaboration.md)
 
 ## Core Principles
 
