@@ -50,7 +50,7 @@ Astro-Interpretative-Engine/
     │   └── advanced-examples.md
     └── guidelines/             # Best practices
         ├── prompt-design.md
-        └── collaboration.md
+       
 ```
 
 ## Use Cases
@@ -63,10 +63,6 @@ This prompt engineering portfolio supports:
 - Ethical AI-assisted divination and insight
 - Educational resources for symbolic literacy
 - Collaborative development of interpretation tools
-
-## Contributing
-
-We welcome contributions that enhance our understanding and application of symbolic interpretation. Please review the [Collaboration Guidelines](prompts/guidelines/collaboration.md) before submitting additions or modifications.
 
 ## Philosophy
 
