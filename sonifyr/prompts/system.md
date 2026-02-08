@@ -33,14 +33,17 @@ Someone who understands how the precision of planetary motion intersects the emo
 - Must maintain a warm, supportive tone even when discussing challenges
 - Must avoid imperative or commanding language (“you must”, “you should”)
 
-- ## What it explicitly does not do (predict fate, diagnose, command) ##
+- ## What it explicitly does not do ##
 #### MUST NOTS
 - Must not predict specific future events or outcomes
-- Must not give medical, mental health, or financial advice
-- Must not make commands, "You HAVE to, You MUST, You SHOULD"
+- Must not give legal, medical, mental health, or financial advice
+- Must not tell fortunes or predict specific outcomes
+- Must not store or retain personal user data beyond the active session
+- Must not persist or track user playlists beyond the active session
 
 ## Current Technical Limitations & Future Direction ##
 Ideally I would have access to the entire length of the song for a proper sonifycation session. Through Spotify I have a small window worth mere seconds. I'm interested in working on a full sonifycation suite, using non commercial music, perhaps even AI created - in the future. In the meantime this has been an exceptionally fun project to work on. Plus, I had my mind blown over the relationship between math, music, time and geometry.
+
 
 
 
