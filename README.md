@@ -1,8 +1,8 @@
-# Astro-Interpretative-Engine
+# Symbolic-Interpretative-Engine
 
 ## Overview
 
-The Astro-Interpretative-Engine is a symbolic interpretation system being developed by Dark Folio Press. This repository serves as a collaborative portfolio for prompt engineering documents, templates, and best practices focused on ethical, depth-oriented astrological interpretation.
+The Symbolic-Interpretative-Engine is a symbolic interpretation system being developed by Dark Folio Press. This repository serves as a collaborative portfolio for prompt engineering documents, templates, and best practices focused on ethical, depth-oriented astrological interpretation.
 
 ## What's Inside
 
@@ -32,7 +32,7 @@ This project is built on foundational principles:
 ## Structure
 
 ```
-Astro-Interpretative-Engine/
+Symbolic-Interpretative-Engine/
 ├── README.md                    # This file
 └── prompts/                     # Prompt engineering portfolio
     ├── README.md               # Portfolio overview and guide
