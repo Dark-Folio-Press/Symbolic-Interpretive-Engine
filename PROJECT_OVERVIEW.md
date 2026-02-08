@@ -19,17 +19,17 @@ At its core, this project is an experiment in interpretive system design: how to
 
 # Design Philosophy
 
-Most astrology apps treat charts as deterministic outputs and users as passive recipients. Dark Folio takes a different approach.
+Most astrology apps treat charts as deterministic outputs. Dark Folio takes a different approach.
 
 This system is designed to:
 
-➡️ Mediate symbolic knowledge rather than predict outcomes
-➡️ Preserve ambiguity where ambiguity is honest
-➡️ Treat contradiction as informative, not as an error
-➡️ Favor synthesis over isolated placements
-➡️ Maintain a consistent interpretive voice across all features
+<ul>➡️ Mediate symbolic knowledge rather than predict outcomes</ul>
+<ul>➡️ Preserve ambiguity where ambiguity is honest</ul>
+<ul>➡️ Treat contradiction as informative, not as an error</ul>
+<ul>➡️ Favor synthesis over isolated placements</ul>
+<ul>➡️ Maintain a consistent interpretive voice across all features</ul>
 
-Interpretations are framed as patterns and tensions, not instructions or guarantees. The user remains the primary interpreter of their own experience.
+Interpretations are framed as patterns and tensions, not instructions or guarantees. The user remains the primary arbiter of their own experience.
 
 # Technical Approach
 
@@ -43,7 +43,7 @@ A centralized prompt system enforces voice, boundaries, and interpretive hierarc
 
 Runtime controls (e.g. temperature) are tuned per feature for consistency
 
-The application uses:
+# The application uses:
 
 TypeScript / Node
 
@@ -53,13 +53,15 @@ Server-side prompt orchestration (not chat-based UX)
 
 A modular feature architecture (daily, natal, synastry, transits)
 
-Prompts are treated as versioned system components rather than ad hoc instructions.
+Prompts are treated as versioned system components
 
-# Features
+# Projects
 
-Released: Daily horoscopes (symbolic, non-predictive)
+*Released:* Daily horoscopes (symbolic, non-predictive)
 
-Released: Personalized daily readings based on natal charts
+*Released:* Personalized daily readings based on natal charts
+
+*Released:* Sonified weekly playlists
 
 In-depth natal chart interpretations
 
@@ -73,7 +75,7 @@ Each feature is designed to feel like part of the same instrument, not a collect
 
 # Who This Is For
 
-Developers interested in AI beyond chatbots
+Developers interested in AI 
 
 Designers exploring meaning-centered interfaces
 
