@@ -1,6 +1,6 @@
 # Prompt Engineering Portfolio
 
-This directory contains a curated collection of prompt engineering documents for the Astro-Interpretative-Engine, a symbolic interpretation system being developed by Dark Folio Press.
+This directory contains a curated collection of prompt engineering documents for the Symbolic-Interpretative-Engine, a symbolic interpretation system being developed by Dark Folio Press.
 
 ## Purpose
 
@@ -38,7 +38,7 @@ prompts/
 
 ## Core Principles
 
-The Astro-Interpretative-Engine is built on these foundational principles:
+The Symbolic-Interpretative-Engine is built on these foundational principles:
 
 1. **Symbolic Literacy** - Deep understanding of symbolic systems and their meanings
 2. **Ethical Restraint** - Thoughtful boundaries in interpretation and application
