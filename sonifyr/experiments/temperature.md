@@ -68,9 +68,29 @@ Across all runs, outputs were evaluated for:
 
 ---
 
-### Conclusion (To Be Completed After Testing)
+### Findings 
 
-This section will summarize:
-- The optimal temperature choice for production use
-- The tradeoffs observed between structure and expressiveness
-- Any constraints or safeguards identified as necessary for reliable output
+  | Temp | Schema       | Identity  | Specificity | Notes                      |
+| ---- | ------------ | --------- | ----------- | -------------------------- |
+| 0.8  | Mostly valid | Correct   | High        | One missing day            |
+| 0.7  | Valid        | Drift     | Moderate    | Identity changed           |
+| 0.6  | Valid        | Drift     | Reduced     | Technical detail decreased |
+| 0.3  | Valid        | Collapsed | Simplified  | Missing required fields    |
+
+
+### Conclusion
+
+- Creative layer remained stable across temperatures.
+- Structural layer moderately stable.
+- Identity layer unstable across entropy changes.
+
+<b>Primary risk area identified:</b> 
+- data injection binding.
+
+<b>Next Steps</b>
+
+- Hard-bind natal values into system prompt.
+- Prohibit narrative recalculation.
+- Re-run temperature sweep.
+
+Compare identity stability post-fix.
