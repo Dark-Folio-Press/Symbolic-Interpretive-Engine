@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Astro-Interpretative-Engine is designed with ethical considerations at its core. While symbolic interpretation can offer profound insights, it must be practiced with care, restraint, and respect for human agency.
+The Symbolic-Interpretative-Engine is designed with ethical considerations at its core. While symbolic interpretation can offer profound insights, it must be practiced with care, restraint, and respect for human agency.
 
 ## Core Ethical Principles
 
@@ -93,7 +93,7 @@ Even challenging patterns can be framed constructively:
 
 ## Implementation in Prompts
 
-When designing prompts for the Astro-Interpretative-Engine, build in ethical guardrails:
+When designing prompts for the Symbolic-Interpretative-Engine, build in ethical guardrails:
 
 ### Template Structure
 ```
