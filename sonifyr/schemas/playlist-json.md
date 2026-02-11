@@ -62,6 +62,68 @@ Fields, structure, and types must match exactly. Values are representative only.
   ]
 }
 ```
-Note: In production output, songs must contain exactly seven entries—one per day of the week.
-- Day names in `day` and `dayOfWeek` must correspond correctly (e.g., Monday ↔ MON)
+# Day Mapping Requirements
+
+In production output, songs must contain exactly seven entries—one per day of the week.
+Day names in `day` and `dayOfWeek` must correspond exactly (e.g., Monday ↔ MON)
+
+**Valid mappings:**
+
+| day       | dayOfWeek |
+| --------- | --------- |
+| Monday    | MON       |
+| Tuesday   | TUE       |
+| Wednesday | WED       |
+| Thursday  | THU       |
+| Friday    | FRI       |
+| Saturday  | SAT       |
+| Sunday    | SUN       |
+
+
+**Additional rules:**
+
+- All seven days must be present exactly once.
+- Order may vary, but duplication or omission invalidates the output.
+- dayOfWeek must be uppercase.
+- day must use full English weekday names.
+
+**Validation Expectations**
+
+A valid Sonifyr playlist response must satisfy all of the following:
+
+- Valid JSON syntax (parsable without correction)
+- All required top-level fields present
+- songs array length = 7
+- Each song object includes all required fields
+- No extra top-level keys
+- Astrological identity (Sun, Moon, Rising) must match injected natal data
+- No predictive or deterministic claims
+- If any of the above conditions fail, the run is considered structurally invalid.
+- Identity Integrity Clause
+
+**The Sun, Moon, and Rising signs referenced in:**
+
+- description
+- astrologicalSummary
+<br>must match the natal data injected into the prompt layer.</br>
+
+**The model must not:**
+
+- Recalculate signs
+- Infer alternate signs
+- Collapse identity fields
+- Substitute symbolic archetypes for actual natal data
+- Identity drift is treated as a data binding failure, not a creative variation.
+
+# Why This Schema Exists
+
+**This schema acts as:**
+
+- A structural contract between computation and narration
+- A guardrail for generative experimentation
+- A validation layer for production environments
+- A boundary between expressive language and system reliability
+- Creativity is permitted inside the structure.
+- The structure itself is not negotiable.
+
 
