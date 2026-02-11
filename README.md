@@ -4,21 +4,16 @@
 
 The Symbolic-Interpretative-Engine is a symbolic interpretation system being developed by Dark Folio Press. This repository serves as a collaborative portfolio for prompt engineering documents, templates, and best practices focused on ethical, depth-oriented astrological interpretation.
 
-## What's Inside
-
-This repository contains:
-
-- **📚 Prompt Engineering Portfolio** - A comprehensive collection of prompts, templates, and examples
-- **🧭 Symbolic Literacy Documentation** - Core concepts and theoretical foundations
-- **⚖️ Ethical Guidelines** - Boundaries and best practices for responsible interpretation
-- **📝 Templates** - Reusable prompt structures for various interpretation tasks
-- **💡 Examples** - Both basic and advanced interpretation scenarios
-
 ## Quick Start
 
-1. **New to this project?** Start with the [Prompt Portfolio README](prompts/README.md)
-2. **Want to understand the foundations?** Read about [Symbolic Literacy](prompts/concepts/symbolic-literacy.md)
-3. **Looking for templates?** Browse the [Templates](prompts/templates/) directory
+**New to this project?** Start with the [Prompt Portfolio README](prompts/README.md)
+
+- **📚 [Prompt Engineering Portfolio](https://github.com/Dark-Folio-Press/Symbolic-Interpretive-Engine/tree/main/prompts)** - A comprehensive collection of prompts, templates, and examples
+- **🧭 [Symbolic Literacy Documentation](https://github.com/Dark-Folio-Press/Symbolic-Interpretive-Engine/blob/main/prompts/concepts/symbolic-literacy.md)** - Core concepts and theoretical foundations
+- **⚖️ [Ethical Guidelines](https://github.com/Dark-Folio-Press/Symbolic-Interpretive-Engine/blob/main/prompts/concepts/ethical-boundaries.md)** - Boundaries and best practices for responsible interpretation
+- **📝 [Templates](https://github.com/Dark-Folio-Press/Symbolic-Interpretive-Engine/blob/main/prompts/templates/analysis.md)** - Reusable prompt structures for various interpretation tasks
+- **💡 [Examples](https://github.com/Dark-Folio-Press/Symbolic-Interpretive-Engine/blob/main/prompts/examples/basic-examples.md)** - Both basic and advanced interpretation scenarios
+- **✨ A working Live DEMO of the engine in use: [Sonifyr](sonifyr.darkfoliopress.com)**
 
 ## Core Principles
 
