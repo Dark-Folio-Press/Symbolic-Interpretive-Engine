@@ -69,8 +69,9 @@ We believe that AI-assisted symbolic interpretation must be:
 Dark Folio Press is dedicated to encoding symbolic literacy, restraint, and ethical boundaries into AI-assisted applications. This project represents an ongoing experiment in how technology can serve depth, wisdom, and ethical practice.
 
 ## License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
+See the LICENSE file for details.
 
-[To be determined - consider appropriate open-source license for collaborative work]
 
 ## Contact
 
